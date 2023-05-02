@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/magic tree-amico.png" type="image/png/">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="pag2.css">
+
+    <title>Currículo</title>
+    
+</head>
+<body>
+    
+    <div id="titulo">
+        <h1>Vinícius R. Fontebasso</h1>
+    </div>
+
+    <div id="menu" >
+        <strong  >Opções:</strong>
+       
+        <a href="index.html">  <img src="img/inicio.gif" width="80%" alt=""></a><br/><br/>
+        <a href="https://www.linkedin.com/in/vin%C3%ADcius-rodrigues-fontebasso-420b6b26b"> <img src="img/linkedin.gif" width="110%" alt=""> </a><br/><br/>
+        <a href="https://wa.me/5511961887553" target="_blank" > <img src="img/whatssap.gif" width="80%"  alt=""> </a><br/><br/>
+        <a href="index2.html" target="_blank" ><img src="img/car.png" alt="" width="80%" ></a>
+    </div>
+
+    <div id="principal" >
+        <h2 style="color: black;"> &ensp; Guarulhos (SP)</h2>
+        <hr>
+        <p style="color: black;" >Com responsabilidade e dedicação busco uma oportunidade
+        de estágio em análise e desenvolvimento de sistemas.</p>
+       <object data="curri.html" width="100%" height="500px" ></object>
+    
+    </div>
+
+    <div id="lado" >
+        <h1>Conhecimentos:</h1>
+        <div class="w3-content w3-display-container" >
+            <img class="mySlides" src="img/font.png" style="width:100%" >
+            <img class="mySlides" src="img/binario-removebg-preview.png" style="width:80%">
+            <img class="mySlides" src="img/Python-01-removebg-preview.png" style="width: 100%;" >
+            
+
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            <!--Botão direita e esquerda slide-->            
+        </div>
+        
+        <!--COD SLIDER movimentação -->
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+        showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+        
+    </div>
+    
+    <div class="text"  >
+        
+        <h1>Experiência:</h1>
+        <p> Estágio de jovem aprendiz durante o ensino médio e
+            efetivação após a formatura totalizando quatro anos na empresa Incane Despachante,
+            responsável pela parte de cobrança e conferência de processos veiculares, criação e alimentação de planilhas
+            Excel e envio de e-mail via Outlook. Conhecimento com
+            manutenção de painéis, ciclomotores elétricos (trifoot).
+            Criação de designe (Canva) para microempresas, gerenciamento das páginas Facebook
+            e Instagram, criação de web site (Wordpress e Visual Studio).</p>
+    </div>  
+    </div>
+
+
+    </body>
+    </html>

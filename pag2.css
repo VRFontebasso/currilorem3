@@ -1,0 +1,115 @@
+
+        *{
+          margin-top: 0 auto;
+          padding: 0px;
+          border: 0px;
+        }
+
+        #total{
+          margin-top: 0 auto;
+          padding: 0px;
+          border: 0px;
+          margin: 0px;
+        }
+
+        body{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 22px;
+          background-color:white;
+          margin: 0px;
+          border: 0px;
+          margin-top: -10px;
+         
+        }
+
+       #titulo {
+           text-align: center;
+           height: 70px;
+           width: 100%;
+           margin: 0 auto;
+           font-family: fantasy;
+           background-color: rgb(57, 57, 241);
+          padding: 0px;
+          border: 0px;
+          margin-top: 0 auto;
+          
+       }
+
+       #menu{
+            height: 500px;
+            width: 100px;
+            float: left;
+            background-color:white;
+            
+            border-radius: 20px;
+            text-align: center;
+            
+       }
+       #principal{
+            text-align: center;
+            background-color: white;
+            height: 100%;
+            width: 90%;
+            float: left;
+            border: solid 5px black;
+            
+       }
+
+
+       #lado{
+            float: right;
+            height: 500px;
+            width: 449px;
+            text-align: center;
+       }
+
+       h1,h2,h3,p,li{
+        color: black;
+       }
+
+       #text{
+      font-size: medium;
+      font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+      
+       }
+
+       .text > h1{
+        text-align: center;
+       }
+
+       .text > p{
+        margin: 2%;
+       }
+
+       #lado{
+            float: right;
+            height: 500px;
+            width: 449px;
+            text-align: center;
+       }
+
+       h1,h2,h3,p,li{
+        color: black;
+       }
+
+       #text{
+      font-size: medium;
+      font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+      
+       }
+
+       .text > h1{
+        text-align: center;
+       }
+
+       .text > p{
+        margin: 2%;
+       }
+
+
+
+
+       
+       
